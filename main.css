@@ -1,0 +1,1398 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  /*color: #424242;*/
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0; 
+}
+
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+    background: white;
+    max-width: 850px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding-top: 5px;
+}
+
+/*.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}*/
+
+
+/*
+ *
+ * Common
+ * 
+ */
+
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  /*min-height: 56px;
+  transition: min-height 0.3s;*/
+  height: 40px;
+  background: #C0C0C0;
+  position: relative;
+}
+
+.header__inner {
+  width: 100%;
+  /*margin-left: auto;
+  margin-right: auto;*/
+}
+
+.header__logo {
+  /*height: 72px;*/
+  height: 45px;
+  margin-right: 1em;
+  vertical-align: top;
+  position: absolute;
+  left: 10px;
+}
+
+.main_image {
+  width: 100%;
+  /*margin-right: 1em;
+  vertical-align: top;
+  margin-top: 12px;*/
+}
+
+.header__title {
+  font-weight: 300;
+  position: absolute;
+  left: 60px;
+  font-size: 2em;
+  margin: 0.3em 0.25em;
+  display: inline-block;
+  color: #212121;
+}
+
+
+/*
+ *
+ * Top Level Navigation
+ *
+ */
+
+.nav {
+  /*width: 100%;*/
+  height: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  /*background: #00002d;*/
+  background: #000000;
+  border-style: solid;
+  border-color: red;
+}
+
+.nav__list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 18%;
+  text-align: center;
+  line-height: 24px;
+  /*padding: 24px;*/
+  padding: 3px;
+  text-transform: uppercase;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight:900;
+  /*color: #ffffff;*/
+  color: #ffffff;
+  padding: 1.5em;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+
+/*
+ *
+ * Main
+ *
+ */
+
+.main {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+ *
+ * Content
+ *
+ */
+
+
+/*
+ *
+ * Hero
+ *
+ */
+
+.hero {
+  float: left;
+  width: 100%;
+  position: relative;
+  background-image: url("./images/930930202-jpg-0.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.home-content {
+  margin-top: 20px;
+}
+
+.cardw17 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/ryan-fitzpatrick-miami-dolphins-qb-running-vs-patriots-91519.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardw17 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw16 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/YCMxOjv.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardw16 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw15 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/tom-brady-new-england-patriots-vs-bengals-2013.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardw15 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw14 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/patriots- (1).jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardw14 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw13 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/jason_mccourty_113019.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardw13 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw12 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/vpxyMEB.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardw12 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw11 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/tom-brady-new-england-patriots-vs-eagles-super-bowl-52-2.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardw11 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw9 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/preview.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardw9 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw8 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/usatsi_13398202.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardw8 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw7 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/NFL-PATRIOTS-VS-JETS.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardw7 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw6 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/bzcmwyymwsgbeywc9kjb.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardw6 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw5 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/1178375617-jpg-0.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardw5 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw4 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/patriots-bills-helmets-092015 (1).jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardw4 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw3 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/Pats-Hype-Video-Brady.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardw3 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw2 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/1070845362-jpg-0.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardw2 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw1 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/tom-brady-new-england-patriots.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardw1 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardwtest20 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/patriots-rams-super-bowl-liii-.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardwtest20 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardwtest19 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/1083361230.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardwtest19 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardwtest18 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/Los-Angeles-Chargers-vs.-New-England-Patriots-Free-Pick-amp-NFL-Betting-Prediction-600x338.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardwtest18 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardwtest17 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/OALKGFWGZRCWPP7HXTTMONLGMA.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardwtest17 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardwtest16 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/Falcons-vs.-Patriots-Free-Pick-Super-Bowl-51-Betting-Prediction.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardwtest16 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardwtest15 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/NEvsPIT.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardwtest15 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardwtest14 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/usatsi_10474341.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardwtest14 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardwtest13 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/1072239790.jpg.0-650x433.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardwtest13 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardwtest12 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/hi-res-0514ad26fb821b174bdb60d58d1f1df8_crop_north.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardwtest12 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardwtest10 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/502366440.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardwtest10 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardwtest9 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/nfl_rodgers_brady_16x9_576x324.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardwtest9 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardwtest8 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/hi-res-58fff2d49e4cc67a6d228eb62f0a232b_crop_north.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardwtest8 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardwtest7 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/Julian-Edelman.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardwtest7 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardwtest6 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/tom-brady-215f5f6d748a79b8.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardwtest6 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardwtest5 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/colts-fake-punt.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardwtest5 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardwtest4 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/Dolphins-vs-Patriots-.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardwtest4 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardwtest3 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/accb9d06d909a8df96b08f0284a9d017.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardwtest3 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardwtest2 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/stephon-gilmore-patriots-jaguars.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardwtest2 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardwtest1 {
+  /*float: left;*/
+  width: 480px;
+  position: relative;
+  background-image: url("./images/usatsi_6935862.jpg");
+  background-size: cover;
+  height: 300px;
+  /*margin-left:auto;
+  margin-right:auto;*/
+}
+
+.cardwtest1 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+
+
+.matchup {
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  height: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.content {
+    padding-top: 25px;
+}
+
+.analysis {
+	font-size: 14px;
+}
+		
+.sharethis-inline-share-buttons {
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.hero article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw1 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw2 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw3 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw4 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw5 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardw6 article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 33%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.cardbg {
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+ *
+ * Top News
+ *
+ */
+
+.top-news {
+  float: right;
+  width: 100%;
+  height: 300px;
+  color:white;
+  /*border-bottom: 1px solid #E0E0E0;*/
+  padding: 1em;
+}
+
+.news__title {
+  font-weight: 300;
+  border-bottom: 1px solid #E0E0E0;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.top-news__item {
+  border-bottom: 1px solid #E0E0E0;
+  padding: 1em 0;
+  line-height: 19.2px;
+  color:white;
+}
+
+.top-news__item:before {
+  content: "» ";
+}
+
+.top-news__item:last-child {
+  border-bottom: none;
+}
+
+.top-news__item a {
+  text-decoration: none;
+  color: #666;
+  padding: 1.5em inherit;
+}
+
+.top-news__item a:hover,
+.top-news__item a:active {
+  text-decoration: underline;
+}
+
+
+/*
+ *
+ * Sport Scores
+ *
+ */
+ 
+ .scoresstandings {
+     width: 100%;
+ }
+
+.scores {
+  width: 100%;
+  float: left;
+  padding-top: 1em;
+}
+
+.scores__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.scores__table th,
+.scores__table td {
+  padding: 1em; 
+}
+
+.scores__table th {
+  color: #fff;
+  font-weight: 300;
+  background-color: #78909C;
+}
+
+.scores__table tr {
+    line-height: 6.5px;
+}
+
+.scores__table tr:nth-child(odd) td {
+  background-color: #fff;
+}
+
+.scores__table tr:nth-child(even) td {
+  background-color: #eceff1;
+}
+
+.scores__table td.winner {
+  font-weight: bold;
+}
+
+.scores__table td:nth-child(3) {
+  text-align: right;
+}
+
+.scores__table td:nth-child(1),
+.scores__table td:nth-child(2),
+.scores__table td:nth-child(5) {
+  text-align: center;
+}
+
+/*
+ *
+ * standings
+ *
+ */
+
+.standings {
+  width: 50%%;
+  float: right;
+  padding-top: 1em;
+  padding-bottom: 0.35em;
+  background: white;
+}
+
+.standings__table {
+  width: 100%;
+  border-collapse: collapse;
+  /*display: inline-block;*/
+}
+
+.standings__table th,
+.standings__table td {
+  padding: 1em; 
+}
+
+.standings__table th {
+  color: #fff;
+  font-weight: 300;
+  background-color: #78909C;
+}
+
+.standings__table tr:nth-child(odd) td {
+  background-color: #fff;
+}
+
+.standings__table tr:nth-child(even) td {
+  background-color: #eceff1;
+}
+
+.standings__table td:nth-child(3) {
+  text-align: center;
+}
+
+.standings__table td:nth-child(6) {
+  text-align: center;
+}
+
+.standings__table td:nth-child(2),
+.standings__table td:nth-child(4),
+.standings__table td:nth-child(5) {
+  text-align: center;
+}
+
+/*
+  schedule
+ */
+
+.schedule {
+  width: 100%;
+  float: left;
+  padding-top: 1em;
+}
+
+.schedule__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 60px;
+}
+
+.schedule__table th,
+.schedule__table td {
+  padding: 1em; 
+}
+
+.schedule__table th {
+  color: #fff;
+  font-weight: 300;
+  background-color: #78909C;
+}
+
+.schedule__table tr:nth-child(odd) td {
+  background-color: #fff;
+}
+
+.schedule__table tr:nth-child(even) td {
+  background-color: #eceff1;
+}
+
+.schedule__table td.winner {
+  font-weight: bold;
+}
+
+.schedule__table td:nth-child(3) {
+  text-align: center;
+}
+
+.schedule__table td:nth-child(1) {
+  text-align: center;
+}
+
+.schedule__table td:nth-child(6) {
+  text-align: center;
+}
+
+.schedule__table td:nth-child(2),
+.schedule__table td:nth-child(4),
+.schedule__table td:nth-child(5) {
+  text-align: center;
+}
+
+.recent-news {
+  clear: both;
+  padding: 1em;
+}
+
+
+/*
+ *
+ * Footer
+ *
+ */
+
+/*.footer {
+  border-top: 1px solid #E0E0E0;
+  padding: 1em;
+  width: 100%;
+  background-color: #A9A9A9;
+}
+
+.footer li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #333;
+  padding: 1.5em;
+}*/
+
+.site-footer {
+  margin-top: 20px;
+  text-align: center;
+  border-top: 1px solid #00002d;
+  padding: 4em;
+  width: 100%;
+  background: #808080;
+  clear: both;
+  bottom:0;
+}
+
+.footer__logo {
+  height: 80px;
+  margin-right: 1em;
+  vertical-align:top;
+  top: 0;
+}
+
+.email__logo, .twitter__logo {
+    height: 30px;
+}
+
+.site-footer li {
+  display: inline-block;
+  margin: 0;
+  font-size: 18px;
+}
+
+.site-footer a {
+  text-decoration: none;
+  color: #333;
+  padding: 0.5em;
+}

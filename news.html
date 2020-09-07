@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125969152-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-125969152-1');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="http://a2.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fnfl%2F500%2Fne.png">
+    <title>News</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <style>
+		* {
+            box-sizing: border-box;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        /* Create two equal columns that sits next to each other */
+        .column {
+            flex: 50%;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="header__inner">
+        <a href="index.html"><img class="header__logo" src="images/new-england-patriots.png" alt="Patriots logo"></a>
+        <a href="index.html"><h1 class="header__title">
+          Patriots Playbook
+        </h1></a>
+        <a id="menu" class="header__menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+          </svg>
+        </a>
+      </div>
+    </header>
+    <nav id="drawer" class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="index.html">Home</a></li>
+        <li class="nav__item"><a href="schedule.html">Schedule</a></li>
+        <li class="nav__item"><a href="news.html">News</a></li>
+        <li class="nav__item"><a href="/gameday/index.htm">Game Day</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="row">
+        <section class="column" style="background-color:white;">
+            <h2>New England Patriots News</h2>
+            <p><a href="https://www.espn.com/nfl/story/_/id/27662788/brown-pats-cut-wr-amid-field-allegations" target="_blank">[ESPN] Brown out: Pats cut WR amid off-field allegations</a></p>
+            <p><a href="https://www.espn.com/nfl/story/_/id/27561787/brown-finds-new-home-agrees-deal-pats" target="_blank">[ESPN] Brown finds new home, agrees to deal with Pats</a></p>
+        </section>
+        <section class="column" style="background-color:white;">
+            <h2>Around the NFL</h2>
+            <p><a href="http://www.nfl.com/news/story/0ap3000001051679/article/stunner-raiders-announce-release-of-antonio-brown" target="_blank">[NFL.com] Raiders announce release of Antonio Brown</a></p>
+        </section>
+      </section>
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-1756500529624409"
+         data-ad-slot="1435471721"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </main>
+    <div class="site-footer">
+          <!--<div class="top-middle">
+              <img class="header__logo" src="images/new-england-patriots.png" alt="Patriots logo">
+          </div>-->
+          <ul>
+            <p>
+		        <a href="index.html"><img class="footer__logo" src="images/new-england-patriots.png" alt="Patriots logo"></a>
+		    </p>
+            <li><a href="mailto:patriotsplaybook@outlook.com"><img class="email__logo" src="images/EmailTesting_Icon.png" alt="Email logo"></a></li>
+            <li><a href="https://twitter.com/Pats_Playbook"><img class="twitter__logo" src="images/twitter-logo-final.png" alt="Twitter logo"></a></li>
+          </ul>
+          <p style="font-size:14px;">
+		    © <span property="" itemprop="name">Dan Mateescu</span>. All rights reserved.
+		  </p>
+    </div>
+    <script>
+      /*
+       * Open the drawer when the menu ison is clicked.
+       */
+      var menu = document.querySelector('#menu');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('.nav');
+
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+    </script>
+  </body>
+</html>

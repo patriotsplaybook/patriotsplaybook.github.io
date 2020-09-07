@@ -1,0 +1,3 @@
+Sitemap: http://patriotsplaybook.com/sitemap.xml
+User-agent: * 
+Disallow:
